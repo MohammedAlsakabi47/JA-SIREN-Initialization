@@ -6,7 +6,7 @@ Implementation of **JA-SIREN**, a deterministic initialization scheme for sinuso
 
 ## Overview
 
-Sinusoidal INRs (e.g., SIREN) rely on stochastic weight initialization, which offers no guarantee on the network's initial spectral response and causes run-to-run PSNR variance of up to 2.5 dB. JA-SIREN replaces this with a **closed-form, deterministic initialization** derived from the target signal's own spectrum — no random seed, no hyperparameter tuning.
+Sinusoidal INRs (e.g., SIREN) rely on stochastic weight initialization, which offers no guarantee on the network's initial spectral response and causes run-to-run PSNR variance of up to 2.5 dB. JA-SIREN replaces this with a **closed-form, deterministic initialization** derived from the target signal's own spectrum, no random seed, no hyperparameter tuning.
 
 ## Method
 
