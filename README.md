@@ -2,6 +2,10 @@
 
 Implementation of **JA-SIREN**, a deterministic initialization scheme for sinusoidal implicit neural representations (INRs), introduced in *"Jacobi-Anger Method for Deterministic Initialization in Implicit Neural Representation"* (MLSP 2026 - Oral).
 
+Paper: ## Paper
+
+[Paper](https://arxiv.org/abs/2606.06671)
+
 ## Overview
 
 Sinusoidal INRs (e.g., SIREN) rely on stochastic weight initialization, which offers no guarantee on the network's initial spectral response and causes run-to-run PSNR variance of up to 2.5 dB. JA-SIREN replaces this with a **closed-form, deterministic initialization** derived from the target signal's own spectrum — no random seed, no hyperparameter tuning.
