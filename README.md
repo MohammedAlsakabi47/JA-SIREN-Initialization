@@ -1,1 +1,1 @@
-Official implementation of JA-SIREN initialization
+# Official implementation of JA-SIREN initialization
